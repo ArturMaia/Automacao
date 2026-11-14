@@ -6,7 +6,6 @@
 
 ### Deixe o computador fazer o trabalho chato por você.
 
-![Projetos](https://img.shields.io/badge/projetos-3-blue)
 ![Status](https://img.shields.io/badge/status-em%20crescimento-brightgreen)
 ![Licença](https://img.shields.io/badge/uso-livre-lightgrey)
 
