@@ -1,4 +1,7 @@
-# 🌐 INTERNAUTA — Monitor de Sistema e Conexão
+# 🌐 TÉCNICO TI — Monitor de Sistema e Conexão
+<p align="center">
+  <img src="https://github.com/ArturMaia/Automacao/blob/main/Tecnico-PC/TI.jpg" alt="TI" style="width: 350px; border-radius: 200px;"> 
+</p>
 
 Aplicativo desktop simples, feito em **Python + Tkinter**, que mostra em tempo real o uso de **CPU, memória e disco** e testa a **qualidade da conexão com a internet** medindo o tempo de resposta de uma requisição HTTP.
 
@@ -94,14 +97,6 @@ As constantes no início do arquivo `INTERNAUTA.py` permitem personalizar o comp
 
 ---
 
-## 🗂️ Estrutura do projeto
-
-```
-.
-├── INTERNAUTA.py   # Código-fonte completo da aplicação
-└── README.md       # Este arquivo
-```
-
 ### Principais componentes do código
 
 - `classificar_qualidade(tempo)` — converte o tempo de resposta em uma classificação de qualidade.
@@ -126,9 +121,3 @@ As constantes no início do arquivo `INTERNAUTA.py` permitem personalizar o comp
 - Escolha da URL de teste pela interface
 - Alertas quando a conexão ficar lenta ou cair
 - Empacotamento em executável (`.exe`) com PyInstaller
-
----
-
-## 📄 Licença
-
-Defina aqui a licença do projeto (por exemplo, [MIT](https://opensource.org/licenses/MIT)).
