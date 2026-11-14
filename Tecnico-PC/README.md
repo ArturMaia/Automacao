@@ -7,9 +7,9 @@ Aplicativo desktop simples, feito em **Python + Tkinter**, que mostra em tempo r
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-### 🖥️ Monitor de sistema
+### Monitor de sistema
 - Uso de **CPU**, **memória RAM** e **disco**, com barras de progresso e porcentagem.
 - Atualização automática a cada **1 segundo**.
 - Compatível com Windows, Linux e macOS (o disco monitorado é a raiz do sistema).
@@ -33,7 +33,7 @@ Aplicativo desktop simples, feito em **Python + Tkinter**, que mostra em tempo r
 
 ---
 
-## 📋 Requisitos
+## Requisitos
 
 - **Python 3.8** ou superior
 - Bibliotecas:
@@ -43,48 +43,8 @@ Aplicativo desktop simples, feito em **Python + Tkinter**, que mostra em tempo r
 
 No **Linux** (Debian/Ubuntu), talvez seja necessário instalar o Tkinter separadamente:
 
-```bash
-sudo apt install python3-tk
-```
-
 ---
-
-## 🚀 Instalação e uso
-
-1. **Clone o repositório** (ou baixe o arquivo `INTERNAUTA.py`):
-
-   ```bash
-   git clone <URL-DO-SEU-REPOSITORIO>
-   cd <PASTA-DO-PROJETO>
-   ```
-
-2. **(Opcional) Crie um ambiente virtual:**
-
-   ```bash
-   python -m venv venv
-
-   # Windows
-   venv\Scripts\activate
-
-   # Linux / macOS
-   source venv/bin/activate
-   ```
-
-3. **Instale as dependências:**
-
-   ```bash
-   pip install psutil requests
-   ```
-
-4. **Execute o programa:**
-
-   ```bash
-   python INTERNAUTA.py
-   ```
-
----
-
-## ⚙️ Configuração
+## Configuração
 
 As constantes no início do arquivo `INTERNAUTA.py` permitem personalizar o comportamento:
 
@@ -97,15 +57,7 @@ As constantes no início do arquivo `INTERNAUTA.py` permitem personalizar o comp
 
 ---
 
-### Principais componentes do código
-
-- `classificar_qualidade(tempo)` — converte o tempo de resposta em uma classificação de qualidade.
-- `verificar_conexao(url)` — faz a requisição e sempre retorna um dicionário com o resultado (ou o erro).
-- `App(tk.Tk)` — classe da interface gráfica, com os métodos de atualização do sistema e controle do teste de conexão.
-
----
-
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - [Python](https://www.python.org/)
 - [Tkinter / ttk](https://docs.python.org/3/library/tkinter.html) — interface gráfica
@@ -114,7 +66,7 @@ As constantes no início do arquivo `INTERNAUTA.py` permitem personalizar o comp
 
 ---
 
-## 💡 Ideias para o futuro
+## Ideias para o futuro
 
 - Histórico e gráficos de latência ao longo do tempo
 - Teste de velocidade de download/upload
