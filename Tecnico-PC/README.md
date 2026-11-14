@@ -1,4 +1,4 @@
-# 🌐 TÉCNICO TI — Monitor de Sistema e Conexão
+# 🌐 TÉCNICO PC — Monitor de Sistema e Conexão
 <p align="center">
   <img src="https://github.com/ArturMaia/Automacao/blob/main/Tecnico-PC/TI.jpg" alt="TI" style="width: 350px; border-radius: 200px;"> 
 </p>
